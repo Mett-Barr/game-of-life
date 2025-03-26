@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.component.gamerule
+package com.moozy.gameoflife.ui.component.gamerule
 
 enum class CellState {
     BRIGHTENING,

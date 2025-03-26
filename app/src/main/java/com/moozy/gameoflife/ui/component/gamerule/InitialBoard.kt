@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.component.gamerule
+package com.moozy.gameoflife.ui.component.gamerule
 
 fun initialBoard(width: Int, height: Int): Board {
     val board = Array(width) { Array(height) { Cell() } }

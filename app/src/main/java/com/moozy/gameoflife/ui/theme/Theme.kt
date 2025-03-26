@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.theme
+package com.moozy.gameoflife.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

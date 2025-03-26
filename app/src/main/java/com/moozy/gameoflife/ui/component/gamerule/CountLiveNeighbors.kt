@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.component.gamerule
+package com.moozy.gameoflife.ui.component.gamerule
 
 fun countLiveNeighbors(board: Board, x: Int, y: Int): Int {
     var count = 0

@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.test
+package com.moozy.gameoflife.ui.test
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable

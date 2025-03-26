@@ -1,4 +1,4 @@
-package com.example.gameoflife
+package com.moozy.gameoflife
 
 import android.app.WallpaperManager
 import android.content.ComponentName
@@ -14,9 +14,8 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.core.view.WindowCompat
-import com.example.gameoflife.ui.component.GameOfLife
-import com.example.gameoflife.ui.theme.GameOfLifeTheme
+import com.moozy.gameoflife.ui.component.GameOfLife
+import com.moozy.gameoflife.ui.theme.GameOfLifeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

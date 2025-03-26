@@ -1,4 +1,4 @@
-package com.example.gameoflife
+package com.moozy.gameoflife
 
 import org.junit.Test
 

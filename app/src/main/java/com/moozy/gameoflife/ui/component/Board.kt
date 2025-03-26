@@ -1,4 +1,4 @@
-package com.example.gameoflife.ui.component
+package com.moozy.gameoflife.ui.component
 
 import android.util.Log
 import androidx.compose.animation.core.*
@@ -17,7 +17,7 @@ import androidx.compose.ui.graphics.drawscope.DrawScope
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.gameoflife.ui.component.gamerule.*
+import com.moozy.gameoflife.ui.component.gamerule.*
 import kotlinx.coroutines.delay
 
 fun DrawScope.drawBoard(board: Board, cellStyle: CellStyle) {

@@ -1,4 +1,4 @@
-package com.example.gameoflife
+package com.moozy.gameoflife
 
 import android.content.Context
 import android.graphics.*
@@ -9,10 +9,9 @@ import android.util.Log
 import android.view.GestureDetector
 import android.view.MotionEvent
 import android.view.WindowManager
-import androidx.core.view.DisplayCompat
-import com.example.gameoflife.ui.component.gamerule.Board
-import com.example.gameoflife.ui.component.gamerule.initialBoard
-import com.example.gameoflife.ui.component.gamerule.nextBoard
+import com.moozy.gameoflife.ui.component.gamerule.Board
+import com.moozy.gameoflife.ui.component.gamerule.initialBoard
+import com.moozy.gameoflife.ui.component.gamerule.nextBoard
 import kotlinx.coroutines.*
 import kotlin.random.Random
 
