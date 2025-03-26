@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace 'com.moozy.gameoflife'
-    compileSdk 35
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.moozy.gameoflife"
@@ -22,8 +22,17 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            // 啟用 code shrink + obfuscation
+            minifyEnabled true
+
+            // 啟用資源縮減（必須和 minifyEnabled 同時為 true）
+            shrinkResources true
+
+            // 預設 ProGuard 規則 + 你自己定義的規則檔
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            // release 應該關閉 debug
+            debuggable false
         }
     }
     compileOptions {
